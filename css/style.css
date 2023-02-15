@@ -1,0 +1,1178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header,
+main, footer{
+    width: 1440px;
+    max-width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+/* header */
+header{
+    position: absolute;
+    width: 100%;
+    height: 810px;
+    left: 0px;
+    top: 0px;    
+}
+.header-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+.logo{
+    position: absolute;
+    height: 42.7px;
+    width: 94.56px;
+    left: 35px;
+    top: 19px; 
+}
+
+/* nav */
+nav{
+    position: absolute;
+    width: 1015px;
+    height: 25px;
+    left: 260px;
+    top: 28px;
+}
+
+/* nav login */
+.nav-login{
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E5860;
+    text-decoration: none;
+}
+.nav-login>img{
+    position: absolute;
+    top: 3px;
+    left: 55px;
+}
+.nav-login:hover{
+    transition: 0.2s;
+    border-bottom: #3E5860 2px solid;
+    border-top: #3E5860 2px solid;
+}
+
+/* nav signup */
+.nav-signup{
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    left: 118px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E5860;
+    text-decoration: none;
+}
+.nav-signup>img{
+    position: absolute;
+    top: 4px;
+    left: 70px;
+}
+.nav-signup:hover{
+    transition: 0.2s;
+    border-bottom: #3E5860 2px solid;
+    border-top: #3E5860 2px solid;
+}
+
+/* nav MAILING LIST */
+.nav-mailing-list{
+    position: absolute;
+    width: 130px;
+    height: 25px;
+    left: 616px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E5860;
+    text-decoration: none;
+}
+.nav-mailing-list>img{
+    position: absolute;
+    top: 5px;
+    left: 110px;
+}
+.nav-mailing-list:hover{
+    transition: 0.2s;
+    border-bottom: #3E5860 2px solid;
+    border-top: #3E5860 2px solid;
+}
+
+/* nav share */
+.nav-share{
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 796px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E5860;
+    text-decoration: none;
+}
+.nav-share>img{
+    position: absolute;
+    top: 3px;
+    left: 60px;
+}
+.nav-share:hover{
+    transition: 0.2s;
+    border-bottom: #3E5860 2px solid;
+    border-top: #3E5860 2px solid;
+}
+
+/* cart */
+.nav-cart{
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 927px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E5860;
+    text-decoration: none;
+}
+.nav-cart>img{
+    position: absolute;
+    top: 4px;
+    left: 50px;
+}
+.nav-cart:hover{
+    transition: 0.2s;
+    border-bottom: #3E5860 2px solid;
+    border-top: #3E5860 2px solid;
+}
+
+/* header-content */
+.header-content{
+    position: absolute;
+    width: 394px;
+    height: 284px;
+    left: 260px;
+    top: 263px;    
+}
+.header-subtitle{
+    position: absolute;
+    width: 155px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152.5%;
+    color: #4E6E77;    
+}
+h1{
+    position: absolute;
+    width: 394px;
+    height: 194px;
+    left: 0px;
+    top: 29px;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 133.5%;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+.header-btn{
+    position: absolute;
+    width: 140.05px;
+    height: 43px;
+    left: 0px;
+    top: 241px;
+    border: 1.5px solid #43717D;
+    border-radius: 3px;
+    background: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.045em;
+    color: #264A51;
+}
+.header-btn:hover{
+    transition: 0.3s;
+    background: #43717D;
+    color: #fff;
+}
+/*  */
+
+.header-arrow{
+    position: absolute;
+    width: 195px;
+    height: 140px;
+    left: 864px;
+    top: 185px;
+}
+
+
+
+/* main */
+main{
+    position: absolute;
+    width: 100%;
+    height: 5039px;
+    left: 0px;
+    top: 810px;    
+}
+
+
+/* company */
+.company{
+    position: absolute;
+    width: 1440px;
+    height: 140px;
+    left: 0px;
+    top: 0px;
+    background: #D2E2EE;
+}
+.company-logo-1{
+    position: absolute;
+    height: 82.02850341796875px;
+    width: 71.14688110351562px;
+    left: 209px;
+    top: 29px;
+}
+.company-logo-2{
+    position: absolute;
+    height: 100.59906005859375px;
+    width: 100.11236572265625px;
+    left: 385px;
+    top: 20px;    
+}
+.company-logo-3{
+    position: absolute;
+    height: 62.964599609375px;
+    width: 139.43524169921875px;
+    left: 555px;
+    top: 39px;    
+}
+.company-logo-4{
+    position: absolute;
+    height: 110.9814453125px;
+    width: 119.57196044921875px;
+    left: 755px;
+    top: 15px;    
+}
+.company-logo-5{
+    position: absolute;
+    height: 71.11016845703125px;
+    width: 110.34423828125px;
+    left: 950px;
+    top: 34px;    
+}
+.company-logo-6{
+    position: absolute;
+    height: 103.55621337890625px;
+    width: 105.1968994140625px;
+    left: 1142px;
+    top: 18px;    
+}
+
+
+
+/* our-products */
+.our-products{
+    position: absolute;
+    width: 1110px;
+    height: 958px;
+    left: 165px;
+    top: 233px;    
+}
+.our-products-title{
+    position: absolute;
+    width: 321px;
+    height: 78px;
+    left: 395px;
+    top: 0px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 133.5%;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+
+
+/* our-products-list */
+.our-products-list{
+    position: absolute;
+    width: 1049px;
+    height: 39px;
+    left: -60px;
+    top: 105px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.our-products-list>li>a{
+    position: absolute;
+    font-weight: 400;
+    width: 120px;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.045em;    
+    color: #748289;
+    text-decoration: none;
+    text-align: center;
+}
+.our-products-list>li>a:hover{
+    transition: 0.1s;
+    border-bottom: 2px solid #3E5860;
+    border-top: 2px solid #3E5860;
+    border-left: 2px solid #3E5860;
+    border-right: 2px solid #3E5860;
+    border-radius: 2px;
+    color: #264A51;
+}
+
+/* our-product-blocks */
+.our-product-block-1, .our-product-block-2, .our-product-block-3,
+.our-product-block-4, .our-product-block-5, .our-product-block-6{
+    position: absolute;
+    width: 350px;
+    height: 383px;
+    left: 0px;
+    top: 172px;
+}
+.our-product-block-2{
+    left: 380px;
+}
+.our-product-block-3{
+    left: 760px;
+}
+.our-product-block-4{
+    top: 572px;
+}
+.our-product-block-5{
+    top: 572px;
+    left: 380px;
+}
+.our-product-block-6{
+    top: 572px;
+    left: 760px;
+}
+.our-product-blocks-bg{
+    position: absolute;
+    width: 350px;
+    height: 316px;
+    left: 0px;
+    top: 0px;
+    background: #F1F6F9;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    z-index: -1;
+}
+.our-product-blocks-photo{
+    position: absolute;
+    width: 261px;
+    height: 176px;
+    left: 24px;
+    top: 70px;    
+}
+.our-product-blocks-list{
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    left: 75px;
+    top: 258px;    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.our-product-blocks-list>li>a>div{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    background: #71B3C6;
+    border-radius: 2px;
+}
+.our-product-blocks-list>li>a>div>img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.our-product-blocks-title{
+    position: absolute;
+    width: 111px;
+    height: 40px;
+    left: 120px;
+    top: 328px;
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133.5%;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+    text-align: center;
+}
+.our-product-blocks-star{
+    position: absolute;
+    width: 73px;
+    height: 13px;
+    left: 139px;
+    top: 370px;
+}
+
+
+
+/* sale */
+.sale{
+    position: absolute;
+    width: 100%;
+    height: 735px;
+    left: 0px;
+    top: 1305px;
+}
+.sale-subtitle-1{
+    position: absolute;
+    width: 373px;
+    height: 151px;
+    left: 260px;
+    top: 230px;
+    font-family: 'Dosis';
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 0px;
+    letter-spacing: 0.045em;
+    color: #F3B705;
+    opacity: 0.5;
+}
+.sale-title{
+    position: absolute;
+    width: 577px;
+    height: 76px;
+    left: 158px;
+    top: 312px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 133.5%;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+.sale-subtitle-2{
+    position: absolute;
+    width: 389px;
+    height: 90px;
+    left: 252px;
+    top: 403px;
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 172.68%;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #335E74;    
+}
+.sale-btn{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 375px;
+    top: 517px;
+    cursor: pointer;
+    border: 2px solid #264A51;
+    border-radius: 3px;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.045em;
+    color: #264A51;
+}
+.sale-btn:hover{
+    transition: 0.3s;
+    background: #264A51;
+    color: #fff;
+}
+.sale-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+/* furniture */
+.furniture{
+    position: absolute;
+    width: 1115px;
+    height: 2200px;
+    left: 165px;
+    top: 2156px;
+}
+
+
+/* living-room */
+.living-room{
+    position: absolute;
+    width: 1115px;
+    height: 599px;
+    left: 0px;
+    top: 0px;   
+}
+.living-room-photo{
+    position: absolute;
+    width: 599px;
+    height: 599px;
+    left: 0px;
+    top: 0px;
+    border-radius: 3px;
+}
+.block-title-living-room{
+    position: absolute;
+    width: 129px;
+    height: 148px;
+    left: 535px;
+    top: 394px;
+    background: rgba(113, 179, 198, 0.85);
+    border-radius: 3px;
+}
+.block-title-living-room>p{
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    left: 30px;
+    top: 55px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
+}
+.living-room-title{
+    position: absolute;
+    width: 468px;
+    height: 65px;
+    left: 720px;
+    top: 173px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 133.5%;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+.living-room-text{
+    position: absolute;
+    width: 475px;
+    height: 143px;
+    left: 640px;
+    top: 230px;
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 172.68%;
+    letter-spacing: 0.045em;
+    text-align: center;
+    color: #335E74;    
+}
+.living-room-btn{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 806px;
+    top: 360px;
+    background: none;
+    border: 2px solid #264A51;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+    cursor: pointer;
+}
+.living-room-btn:hover{
+    transition: 0.3s;
+    background: #264A51;
+    color: #FFFFFF;
+}
+
+/* dinning-table */
+.dinning-table{
+    position: absolute;
+    width: 1110px;
+    height: 416px;
+    left: 0px;
+    top: 715px;
+}
+.dinning-table-photo{
+    position: absolute;
+    width: 626px;
+    height: 416px;
+    left: 484px;
+    top: 0px;
+    border-radius: 3px;
+}
+.block-title-dinning-table{
+    position: absolute;
+    width: 129px;
+    height: 148px;
+    left: 419px;
+    top: 212px;
+    
+    background: rgba(113, 179, 198, 0.85);
+    border-radius: 3px;
+}
+.block-title-dinning-table>p{
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    left: 30px;
+    top: 55px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
+}
+.dinning-table-title{
+    position: absolute;
+    width: 406px;
+    height: 83px;
+    left: 0px;
+    top: 85px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 133.5%;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+.dinning-table-text{
+    position: absolute;
+    width: 401px;
+    height: 99px;
+    left: 0px;
+    top: 152px;
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 172.68%;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #335E74;    
+}
+.dinning-table-btn{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 129px;
+    top: 267px;
+    border: 2px solid #264A51;
+    border-radius: 3px;
+    background: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+.dinning-table-btn:hover{
+    transition: 0.3s;
+    background: #264A51;
+    color: #FFFFFF;
+}
+
+/* modern-bad */
+.modern-bad{
+    position: absolute;
+    width: 1110px;
+    height: 416px;
+    left: 0px;
+    top: 1247px;
+}
+.modern-bad-photo{
+    position: absolute;
+    width: 624px;
+    height: 416px;
+    left: 0px;
+    top: 0px;
+    border-radius: 3px;
+}
+.block-title-modern-bad{
+    position: absolute;
+    width: 129px;
+    height: 148px;
+    left: 559px;
+    top: 216px;
+    background: rgba(113, 179, 198, 0.85);
+    border-radius: 3px;
+}
+.block-title-modern-bad>p{
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    left: 43px;
+    top: 55px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
+}
+.modern-bad-title{
+    position: absolute;
+    width: 389px;
+    height: 76px;
+    left: 721px;
+    top: 87px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 133.5%;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+.modern-bad-text{
+    position: absolute;
+    width: 389px;
+    height: 99px;
+    left: 721px;
+    top: 154px;
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 172.68%;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #335E74;    
+}
+.modern-bad-btn{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 844px;
+    top: 269px;
+    border: 2px solid #264A51;
+    border-radius: 3px;
+    background: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+.modern-bad-btn:hover{
+    transition: 0.3s;
+    background: #264A51;
+    color: #FFFFFF;
+}
+
+/* kitchen-item */
+.kitchen-item{
+    position: absolute;
+    width: 1111px;
+    height: 408px;
+    left: 0px;
+    top: 1792px;
+}
+.kitchen-item-photo{
+    position: absolute;
+    width: 612px;
+    height: 408px;
+    left: 499px;
+    top: 0px;
+    border-radius: 3px;
+}
+.block-title-kitchen-item{
+    position: absolute;
+    width: 121px;
+    height: 139px;
+    left: 437px;
+    top: 213px;
+    background: rgba(113, 179, 198, 0.85);
+    border-radius: 3px;
+}
+.block-title-kitchen-item>p{
+    position: absolute;
+    width: 98px;
+    height: 27px;
+    left: 20px;
+    top: 55px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;
+}
+.kitchen-item-title{
+    position: absolute;
+    width: 446px;
+    height: 76px;
+    left: 0px;
+    top: 87px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 133.5%;
+    letter-spacing: 0.045em;
+    color: #264A51;
+}
+.kitchen-item-text{
+    position: absolute;
+    width: 389px;
+    height: 99px;
+    left: 29px;
+    top: 154px;
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 172.68%;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #335E74;    
+}
+.kitchen-item-btn{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 152px;
+    top: 269px;
+    border: 2px solid #264A51;
+    border-radius: 3px;
+    background: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.045em;
+    color: #264A51; 
+}
+.kitchen-item-btn:hover{
+    transition: 0.3s;
+    background: #264A51;
+    color: #FFFFFF;
+}
+
+
+
+/* subscribe */
+.subscribe{
+    position: absolute;
+    width: 100%;
+    height: 554px;
+    left: 0px;
+    top: 4485px;
+}
+.subscribe-photo{
+    position: absolute;
+    width: 100%;
+    height: 554px;
+    left: 0px;
+    top: 0px;
+}
+.subscribe-title{
+    position: absolute;
+    width: 358px;
+    height: 50px;
+    left: 541px;
+    top: 180px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 133.5%;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #264A51;    
+}
+.subscribe-subtitle{
+    position: absolute;
+    width: 389px;
+    height: 59px;
+    left: 526px;
+    top: 245px;
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 172.68%;
+    text-align: center;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;    
+}
+.sub-email{
+    position: absolute;
+    width: 460px;
+    height: 46px;
+    left: 490px;
+    top: 327px;
+    background: #DAE6EE;
+    box-shadow: 0px 15px 30px rgba(34, 34, 34, 0.11);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding-left: 27px;
+}
+.sub-email::placeholder{
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 172.68%;
+    letter-spacing: 0.045em;
+    color: rgba(69, 94, 101, 0.47);
+}
+.sub-btn{
+    position: absolute;
+    width: 136px;
+    height: 46px;
+    left: 814px;
+    top: 327px;
+    background: rgba(38, 74, 81, 0.89);
+    box-shadow: -2px 15px 40px rgba(0, 0, 0, 0.11);
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 172.68%;
+    letter-spacing: 0.045em;
+    color: #FFFFFF;    
+}
+.sub-btn:hover{
+    transition: 0.3s;
+    background: #fff;
+    color: #264A51;
+}
+
+
+
+
+/* footer */
+footer{
+    position: absolute;
+    width: 100%;
+    height: 292px;
+    left: 0px;
+    top: 5965px;
+}
+.footer-content{
+    position: absolute;
+    width: 1086px;
+    height: 207px;
+    left: 189px;
+    top: 0px;
+}
+.footer-logo{
+    position: absolute;
+    width: 94px;
+    height: 42px;
+    top: 6px;
+    left: 1px;
+}
+.footer-sublogo{
+    position: absolute;
+    width: 280px;
+    height: 59px;
+    left: 0px;
+    top: 61px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 172.68%;
+    letter-spacing: 0.045em;
+    color: #335E74;
+}
+.footer-social-list{
+    position: absolute;
+    width: 180.84px;
+    height: 25px;
+    left: 0px;
+    top: 139px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer-social-list>li:hover{
+    border-bottom: #3E5860 2px solid;
+    border-top: #3E5860 2px solid;
+}
+
+/* explore-list */
+.explore-list-title{
+    position: absolute;
+    width: 158px;
+    height: 48px;
+    left: 374px;
+    top: 0px;
+    font-family: 'Mukta';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 82px;
+    letter-spacing: 0.05em;
+    color: #264A51;
+}
+.explore-list{
+    position: absolute;
+    width: 118px;
+    height: 140px;
+    left: 374px;
+    top: 67px;
+    list-style: none;
+}
+.explore-list>li>a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.045em;
+    color: #335E74;
+    text-decoration: none;
+}
+.explore-list>li>a:hover{
+    text-decoration: underline 2px;
+}
+
+/* contact-us-list */
+.contact-us-title{
+    position: absolute;
+    width: 167px;
+    height: 48px;
+    left: 555px;
+    top: 0px;
+    font-family: 'Mukta';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 82px;;
+    letter-spacing: 0.05em;
+    color: #264A51;
+}
+.contact-us-list{
+    position: absolute;
+    width: 228.79px;
+    height: 101px;
+    left: 555.48px;
+    top: 52px;
+    list-style: none;
+}
+.contact-us-list>li{
+    padding-top: 15px;
+}
+.contact-us-list>li>a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #335E74;
+    text-decoration: none;    
+}
+.contact-us-list>li>a:hover{
+    text-decoration: underline 2px;
+}
+
+/* service-hours-list */
+.service-hours-title{
+    position: absolute;
+    width: 181.83px;
+    height: 48px;
+    left: 845.21px;
+    top: 0px;
+    font-family: 'Mukta';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 82px;
+    letter-spacing: 0.05em;
+    color: #264A51;    
+}
+.service-hours-list-bg{
+    position: absolute;
+    width: 234.79px;
+    height: 134px;
+    left: 851.21px;
+    top: 73px;
+    background: #A0C7EA;
+    border-radius: 7px;
+}
+.service-hours-list-1{
+    position: absolute;
+    width: 75px;
+    height: 100px;
+    left: 871px;
+    top: 79px;
+    list-style: none;
+}
+.service-hours-list-1>li{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #335E74;    
+    padding-top: 13px;
+}
+.service-hours-list-2{
+    position: absolute;
+    width: 145px;
+    height: 100px;
+    left: 943.46px;
+    top: 79px;
+    list-style: none;
+}
+.service-hours-list-2>li{
+    padding-top: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;    
+}
+
+/* footer-end */
+.footer-end{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    left: 0px;
+    top: 252px;
+    background: #D3E2EF;
+}
+.footer-end>p{
+    position: absolute;
+    width: 172px;
+    height: 30px;
+    left: 638px;
+    top: 5px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+    letter-spacing: 0.045em;
+    color: #335E74;    
+}
